@@ -13,16 +13,6 @@
 
 using namespace cv;
 using namespace std;
-Mat src, dst;
-double min_bd_th = 0.05;
-double asp_ratio = 0.8;
-double inv_asp_ratio = (1/asp_ratio);
-//int bc
-int top;
-int bottom;
-int right;
-int left;
-//cv::Scalar value;
 
 void disp_img(Mat* img, double min_bd_th, double asp_ratio, unsigned char red, unsigned char green, unsigned char blue){
     
